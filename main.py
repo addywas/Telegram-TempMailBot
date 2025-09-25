@@ -144,7 +144,7 @@ def callback_query(call: object) -> None:
             # Send Generating prompt to user
             new_mail_msg = TempMailBot.send_message(
                 chat_id=cid,
-                text=f"Generating E\-Mail\.\.\.\nIt can take up to minute\.\n",
+                text=f"Generating E-Mail...\nIt can take up to minute\.\n",
                 parse_mode="MarkdownV2",
             )
             
@@ -275,7 +275,7 @@ def callback_query(call: object) -> None:
             )
             mailbox_msg = TempMailBot.send_message(
                 chat_id=cid,
-                text=f"Select Email to get Inbox\. All messages in your inbox will send here\.",
+                text=f"Select Email to get Inbox. All messages in your inbox will send here.",
                 parse_mode="MarkdownV2",
                 reply_markup=Markups,
             )
@@ -380,7 +380,8 @@ def callback_query(call: object) -> None:
             )
             mailbox_msg = TempMailBot.send_message(
                 chat_id=cid,
-                text=f"Select Email to Delete\. This action can not be restored so be careful\.",
+                text=f"Select Email to Delete. This action can not be restored so be careful\
+                .",
                 parse_mode="MarkdownV2",
                 reply_markup=Markups,
             )
