@@ -28,7 +28,7 @@ Also note that now you can access to attachments (like confirm links) from your 
 # ▋Clone Repository
 To get started, first you need to **clone** this repository from github into your machine:
 ```bash
-git clone https://github.com/Kourva/TempMailBot
+git clone https://github.com/addtwas/TempMailBot
 ```
 and if you dont have git you can install it from your package manager!
 
