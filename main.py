@@ -144,7 +144,7 @@ def callback_query(call: object) -> None:
             # Send Generating prompt to user
             new_mail_msg = TempMailBot.send_message(
                 chat_id=cid,
-                text=f"Generating E-Mail...\nIt can take up to minute\.\n",
+                text=f"Generating E-Mail...\nIt can take up to minute.\n",
                 parse_mode="MarkdownV2",
             )
             
